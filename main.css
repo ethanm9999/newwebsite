@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  color: green;
+  line-height: 1.6;
+}
+
+#showcase {
+  background-image:url('photo-1570063794363-e221037f4b6f.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#showcase h1{
+  font-size: 50px;
+}
+
+#showcase p{
+  font-size: 20px;
+  line-height: 1.2;s
+}
+
+#showcase .button{
+  font-size: 18px;
+  text-decoration: none;
+  color: green;
+  border: green 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#showcase .button:hover{
+  background: green;
+  color: white;
+}
